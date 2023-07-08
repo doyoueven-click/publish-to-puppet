@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: sksat/b2-upload-action@v0.1.0
+      - uses: doyoueven-click/publish-to-puppet@v0.1.0
         with:
           key_id: ${{ secrets.B2_KEY_ID }}
           key: ${{ secrets.B2_KEY }}
